@@ -1,12 +1,11 @@
 {
 	"name":			"pdf2png-mp2-p",
-	"version":		"1.0.4",
+	"version":		"1.0.5",
 	"description":	"Takes a PDF-document and converts and delivers a PNG",
 	"engine":		"node >= 0.6.0",
 	"main":			"./lib/pdf2png.js",
 	"dependencies": {
         "tmp":			"0.0.23",
-        "pdf_page_count-p": "latest",
         "filesource-p":	"latest"
 	},
 	"repository" :
