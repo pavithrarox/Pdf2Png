@@ -1,18 +1,18 @@
 {
-	"name":			"pdf2png-mp2",
-	"version":		"1.0.3",
+	"name":			"pdf2png-mp2-p",
+	"version":		"1.0.4",
 	"description":	"Takes a PDF-document and converts and delivers a PNG",
 	"engine":		"node >= 0.6.0",
 	"main":			"./lib/pdf2png.js",
 	"dependencies": {
         "tmp":			"0.0.23",
-        "pdf_page_count": "^1.0.10",
-        "filesource":	"latest"
+        "pdf_page_count-p": "latest",
+        "filesource-p":	"latest"
 	},
 	"repository" :
 	{ 
 		"type" :	"git",
-		"url" :		"git@github.com:thnew/Pdf2Png.git"
+		"url" :		"git@github.com:pavithrarox/Pdf2Png.git"
 	},
-	"homepage": "https://github.com/thnew/Pdf2Png"
+	"homepage": "https://github.com/pavithrarox/Pdf2Png"
 }
